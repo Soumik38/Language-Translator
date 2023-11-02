@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.translator{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: orange;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px;
+}
+
+.write-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+}
+
+select{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.bx-transfer{
+    cursor:pointer;
+}
+
+.property-from , .property-to{
+    width: 100%;
+}
+
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 30vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.from , .to{
+    width: 10%;
+    cursor: pointer;
+    margin: 10px;
+}

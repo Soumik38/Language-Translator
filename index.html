@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./index.css">
+    <title>Translator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="translator">
+            <div class="languages">
+                <div class="fromLanguage">
+                    <select></select>
+                </div>
+                <div class="bx bx-transfer"></div>
+                <div class="toLanguage">
+                    <select></select>
+                </div>
+            </div>
+            <div class="write-box">
+                <div class="property-from">
+                    <textarea placeholder="Type text here.." maxlength='1000' class="fromText"></textarea>
+                    <div class="icons from">
+                        <div class="bx bx-user-voice fromVoice"></div>
+                    </div>
+                </div>
+                <div class="property-to">
+                    <textarea placeholder="Type text here.." maxlength='1000' class="toText"></textarea>
+                    <div class="icons to">
+                        <div class="bx bx-user-voice toVoice"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script src="./language.js"></script>
+</html>

@@ -108,7 +108,7 @@ langOption.forEach((get,con)=>{
         let selected
         if(con==0 && countryCode=='en-GB'){
             selected='selected'
-        }else if(con==1 && countryCode=='bn-IN'){
+        }else if(con==1 && countryCode=='ru-RU'){
             selected='selected'
         }
         let option=`<option value="${countryCode}" ${selected}>${language[countryCode]}</option>`
